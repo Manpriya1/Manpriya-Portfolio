@@ -7,19 +7,19 @@ const projects = [
     title: "Movie App",
     // tech:[ "MongoDB", "Express", " React", "Node.js"],
     desc: "Full-stack Movie Booking web-app using the MERN (MongoDB, Express, React, Node.js) stack.",
-    image: "/movies.png",
+    image: `${import.meta.env.BASE_URL}movies.png`,
   },
   {
     title: "Travelling Website",
     // tech: "React, Node.js, MongoDB",
     desc: "A worthwhile and responsive web application designed using HTML and CSS. PHP and MySQL are used as backend language and database respectively.",
-    image: "/bg1.jpg",
+    image: `${import.meta.env.BASE_URL}bg1.jpg`,
   },
   {
     title: "Life Tracking App",
     // tech: "React, Node.js, MongoDB",
     desc: "Life Tracking Web Application Monitors Health and Wealth. The main aim of the app is to make lifestyle healthier by tracking Calorie intake, Water intake, Sleep Analysis, and Workout patterns..",
-    image: "/Tracking1.png",
+    image: `${import.meta.env.BASE_URL}Tracking1.png`,
   },
   // Add more projects as needed
 ];
