@@ -1,0 +1,112 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background: linear-gradient(to right, #0b001c, #1a0033);
+  color: white;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 500px;
+  padding: 1rem;
+  z-index: 2;
+}
+
+.hello-text {
+  color: #a259ff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+.hero-name {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.hero-name span {
+  color: #a259ff;
+}
+
+.hero-typing {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-role {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-buttons a {
+  background: #a259ff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.hero-buttons a:hover {
+  background: #8733ff;
+}
+
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 0 30px rgba(162, 89, 255, 0.4);
+}
+.typewriter span::after {
+  content: none !important;
+  display: none !important;
+  animation: none !important;
+  border: none !important;
+}
+
+
+/* 🔧 Mobile Fix */
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    padding: 2rem 1.2rem;
+    text-align: center;
+  }
+
+  .hero-name {
+    font-size: 2.2rem;
+  }
+
+  .hero-typing {
+    font-size: 1.3rem;
+  }
+
+  .hero-img {
+    max-width: 220px;
+    margin-top: 1rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,104 @@
+.about-section {
+  padding: 4rem 2rem;
+  background: #000;
+  color: #fff;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #a259ff;
+  margin-bottom: 2rem;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-left {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(162, 89, 255, 0.4);
+  margin-bottom: 2rem;
+}
+
+.skills .skill {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.skill-bar {
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 12px;
+}
+
+.skill-bar span {
+  display: block;
+  height: 100%;
+  background: #a259ff;
+  border-radius: 10px;
+}
+
+.about-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-info {
+  list-style: none;
+  padding: 0;
+}
+
+.about-info li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.about-info strong {
+  color: #a259ff;
+}
+
+.neon-header {
+  font-size: 1.4rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #a259ff;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #a259ff;
+  padding-left: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-left, .about-right {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .about-info {
+    text-align: left;
+    padding: 0 1rem;
+  }
+}
