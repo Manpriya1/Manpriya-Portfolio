@@ -71,8 +71,8 @@
 }
 
 .hero-img {
-  width: 100%;
-  max-width: 600px;
+  width: 70%;
+  max-width: 550px;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 0 30px rgba(162, 89, 255, 0.4);
@@ -83,6 +83,40 @@
   animation: none !important;
   border: none !important;
 }
+.hero-left {
+  opacity: 1;
+  animation: none;
+}
+.hero-typing {
+  will-change: opacity;
+}
+
+.typewriter {
+  display: inline-block;
+  min-height: 1.5rem;
+  transition: opacity 0.3s ease-in-out;
+  vertical-align: middle;
+}
+.typewriter-text {
+  display: inline-block;
+  min-width: 100px;
+  color: #b266ff; /* neon purple */
+  transition: opacity 0.3s ease-in-out;
+}
+/* .typing-wrapper {
+  display: inline-block;
+  animation: none;
+  opacity: 1;
+} */
+
+/* .typed-text {
+  display: inline-block;
+  min-height: 1.5em;
+  transition: opacity 0.3s ease-in-out;
+  vertical-align: middle;
+} */
+
+
 
 
 /* 🔧 Mobile Fix */

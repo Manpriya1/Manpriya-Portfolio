@@ -81,7 +81,7 @@ const About = () => {
             </li>
             <li>
               <strong>Tools:</strong> Github,GitLab,
-              Postman,Figma,Netlify,Vercel,VSCode
+              Postman,Figma,Netlify,Vercel,VSCode,Vite,Webpack
             </li>
           </ul>
         </motion.div>
