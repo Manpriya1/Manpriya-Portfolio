@@ -75,7 +75,7 @@ Built reusable UI components and ensured responsiveness across desktop, tablet, 
       </div>
       <div className="download-cv-wrapper">
   <a
-    href={`${import.meta.env.BASE_URL}Manpriya_Dhanju_Resume1.pdf`}
+    href={`${import.meta.env.BASE_URL}Manpriya_Dhanju_Resume.pdf`}
     download
     className="download-cv-btn"
   >

@@ -43,7 +43,7 @@ const Contact = () => {
           <span>🌐</span>
           <h4>Resume</h4>
           <p>
-            <a href={`${import.meta.env.BASE_URL}Manpriya_Dhanju_Resume1.pdf`}>
+            <a href={`${import.meta.env.BASE_URL}Manpriya_Dhanju_Resume.pdf`}>
               Download
             </a>
           </p>
